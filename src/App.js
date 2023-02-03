@@ -5,7 +5,7 @@ import Nav from "./components/Nav";
 import Profile from "./components/Profile";
 function App() {
   return (
-    <div className="flex">
+    <div className="flex flex-col sm:flex-row">
       <Profile />
       <BrowserRouter>
         <About />
