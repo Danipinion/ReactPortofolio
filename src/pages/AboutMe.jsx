@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutMe() {
   return (
-    <>
+    <div className="sm:px-14 px-8">
       <h1 className="text-white font-bold text-3xl mb-4 text-center">
         About Me
       </h1>
@@ -16,7 +16,7 @@ function AboutMe() {
         What I'm Doing
       </h1>
       <div className="doings flex flex-col sm:flex-row gap-2 mt-2">
-        <div className="doing sm:w-2/4 w-full flex items-center bg-cyan-600 rounded-md p-5">
+        <div className="doing sm:w-2/4 max-w-lg w-full flex items-center bg-cyan-600 rounded-md p-5">
           <div className="img mr-2 text-4xl">
             <ion-icon name="code-slash"></ion-icon>
           </div>
@@ -28,7 +28,7 @@ function AboutMe() {
             </p>
           </div>
         </div>
-        <div className="doing sm:w-2/4 w-full flex items-center bg-cyan-600 rounded-md p-5">
+        <div className="doing sm:w-2/4 max-w-lg w-full flex items-center bg-cyan-600 rounded-md p-5">
           <div className="img mr-2 text-4xl">
             <ion-icon name="code-slash"></ion-icon>
           </div>
@@ -99,7 +99,7 @@ function AboutMe() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

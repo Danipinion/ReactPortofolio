@@ -10,7 +10,9 @@ function Profile() {
       <div>
         <Description />
       </div>
-      <Sosmed />
+      <div className="transition-all duration-200">
+        <Sosmed />
+      </div>
     </div>
   );
 }
