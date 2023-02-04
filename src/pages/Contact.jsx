@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
-    <>
+    <div className="p-5">
       <h1 className="text-white font-bold text-3xl mb-4 text-center">
         Contact Me
       </h1>
@@ -50,7 +50,7 @@ function Contact() {
           Submit
         </button>
       </form>
-    </>
+    </div>
   );
 }
 

@@ -1,15 +1,19 @@
 import React from "react";
-import AboutMe from "./About/AboutMe";
+import AboutMe from "../pages/AboutMe";
 import { Route, Routes } from "react-router-dom";
-import Contact from "./Contact";
+import Contact from "../pages/Contact";
+import Portofolio from "../pages/Portofolio";
+import Resume from "../pages/Resume";
 
 function About() {
   return (
     <>
-      <div className="sm:border border-0 -2 p-5 sm:px-16 px-9 text-white border-cyan-500 w-full sm:mx-8 mt-5 rounded-lg">
+      <div className="sm:border-2 border-0  text-white border-cyan-500 md:w-3/4 sm:mx-2 mt-5 rounded-lg relative">
         <Routes>
           <Route path="/" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/portofolio" element={<Portofolio />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </div>
     </>
