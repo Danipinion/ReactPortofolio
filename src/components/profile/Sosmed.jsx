@@ -11,7 +11,12 @@ function Sosmed() {
           <ion-icon name="logo-github" className=""></ion-icon>
         </a>
         <div className="text-3xl text-cyan-600 hover:text-cyan-400">
-          <ion-icon name="logo-linkedin" className=""></ion-icon>
+          <a
+            href="https://www.linkedin.com/in/mohammad-dani-taufiqurrohman/"
+            className="text-3xl text-cyan-600 hover:text-cyan-400"
+          >
+            <ion-icon name="logo-linkedin" className=""></ion-icon>
+          </a>
         </div>
         <a
           href="https://www.instagram.com/danipinion57/"
@@ -25,9 +30,6 @@ function Sosmed() {
         >
           <ion-icon name="logo-facebook" className=""></ion-icon>
         </a>
-        <div className="text-3xl text-cyan-600 hover:text-cyan-400">
-          <ion-icon name="logo-discord" className=""></ion-icon>
-        </div>
       </div>
     </>
   );
