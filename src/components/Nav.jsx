@@ -4,7 +4,7 @@ import { Link, resolvePath, useMatch } from "react-router-dom";
 function Nav() {
   return (
     <>
-      <div className="fixed bottom-0  left-2/4 bg-cyan-600 px-5 py-2 sm:rounded-t-lg w-full flex  justify-evenly -translate-x-1/2">
+      <div className="fixed bottom-0  left-2/4 bg-cyan-600 px-5 py-2 sm:rounded-t-lg w-full flex  justify-evenly -translate-x-1/2 ">
         <CustomLink to="/" ident="Home" icon={"person-outline"} />
         <CustomLink to="/portofolio" ident="Porto" icon={"folder-outline"} />
         <CustomLink to="/resume" ident="Resume" icon={"newspaper-outline"} />
